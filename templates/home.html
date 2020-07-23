@@ -17,10 +17,13 @@
          <li><a href="/">Contact Us</a></li>
          <li><a href="http://www.saraminkara.com/">Sara’s main</a></li>
       </ul>
+
+<div><a href="admin">Admin</a></div>
+
       <h>Contact form</h>
       <br>
       <br>
-      <form action="#" method='post'>
+      <form action="contact" method='post'>
          {% csrf_token %}
          <table class="table2">
             {{ form.as_table }}    
