@@ -7,7 +7,7 @@ from .models import *
 def homeView(request):
     contactform=Contactform()
     loginform=Loginform()
-    return render(request,'home.html',{'contactform':contactform,'loginform':loginform})
+    return render(request,'index.html',{'contactform':contactform,'loginform':loginform})
 
 def contactView(request):
     form=Contactform(request.POST)
