@@ -332,10 +332,20 @@ p {
     padding: 0 4%;
 }
 
+.logo_area {
+    margin-top: 4px;
+    position: relative;
+    background-image: url(img/bg-img/logo.jpg);
+    width: 100px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .menu_area .navbar-brand {
     font-size: 72px;
     font-weight: 700;
-    color: #fff;
+    color: #241349;
     margin: 0;
     line-height: 1;
     padding: 0;
@@ -344,7 +354,7 @@ p {
 
 .menu_area .navbar-brand:hover,
 .menu_area .navbar-brand:focus {
-    color: #fff;
+    color: #241349;
 }
 
 
@@ -354,7 +364,7 @@ p {
 }
 
 .menu_area #nav .nav-link {
-    color: #fff;
+    color: #241349;
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -375,10 +385,10 @@ p {
 }
 
 .sing-up-button > a {
-    color: #fff;
+    color: #241349;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #a883e9;
+    border: 2px solid #241349;
     height: 50px;
     min-width: 178px;
     line-height: 46px;
@@ -398,7 +408,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #241349;
+    background-color: #C6D9E0;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -458,14 +468,14 @@ p {
 
 .wellcome-heading > h2 {
     font-size: 100px;
-    color: #ffffff;
+    color: #241349;
     font-weight: 700;
     position: relative;
     z-index: 3;
 }
 
 .get-start-area .email {
-    background: #9572e8;
+    background: white;
     height: 50px;
     max-width: 260px;
     border: none;
